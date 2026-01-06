@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": "lollilookout",
+      "name": "Lolli Lookout™ Elf & Jumbo Swirl Pop Christmas Gift Set",
+      "subtitle": "Limited Holiday Edition",
+      "category": "Lolli Lookout Collection",
+      "categoryPage": "lollilookout.html",
+      "description": [
+        "Bring home the magic of the holidays with our SwirleePop™ Elf & Jumbo Swirl Pop Christmas Gift Set! This limited holiday edition features a collectible Lolli Lookout Elf paired with a delicious 4\" candy swirl pop.",
+        "Perfect for stockings, shelf displays, and kids' holiday fun. The Lolli Lookout Elf makes a wonderful alternative to traditional holiday elves, adding a sweet twist to your family traditions."
+      ],
+      "features": [
+        "Collectible Lolli Lookout Elf figure",
+        "Includes 4\" jumbo candy swirl pop",
+        "Perfect for shelf displays",
+        "Gift-ready packaging"
+      ],
+      "images": [
+        "lollilookout_1.jpg"
+      ],
+      "amazonUrl": "https://www.amazon.com/SwirleePopTM-Jumbo-Swirl-Pop-Christmas/dp/B0FX32B2PR/",
+      "tag": "Holiday Favorite"
+    },
+    {
+      "id": "smores-bundle",
+      "name": "2025 S'mores Holiday Mug Gift Bundle",
+      "subtitle": "Festive Hot Cocoa Set",
+      "category": "Gift Bundles",
+      "categoryPage": "bundles.html",
+      "description": [
+        "Bring home the holiday spirit with the Swirlee Pop Holiday S'mores Mug Gift Bundle, a festive all-in-one treat set made for cozy winter nights.",
+        "This curated bundle includes two holiday mugs, graham crackers, marshmallows, and a chocolate bar, giving you everything you need to make warm, delicious s'mores or hot cocoa treats at home."
+      ],
+      "features": [
+        "Two festive holiday mugs",
+        "Graham crackers, marshmallows & chocolate bar",
+        "Ready-to-give packaging",
+        "Perfect for gifting, family nights & parties"
+      ],
+      "images": [
+        "smores_bundle.jpg"
+      ],
+      "amazonUrl": "https://www.amazon.com/2025-Smores-Holiday-Gift-Bundle/dp/B0G4HW16WB/",
+      "tag": "Gift Ready"
+    },
+    {
+      "id": "holiday-gummies",
+      "name": "Swirlee™ Christmas Gummies",
+      "subtitle": "8oz Holiday Chewy Candy Mix",
+      "category": "Candy Single Packs",
+      "categoryPage": "singles.html",
+      "description": [
+        "Bring holiday cheer to your celebrations with Swirlee Christmas Gummies! This festive half pound bag features delightful gummy bear candies that make perfect stocking stuffers.",
+        "These chewy treats combine whimsical holiday shapes with delicious flavor that both kids and adults will love. Each piece is crafted to deliver the perfect gummy texture."
+      ],
+      "features": [
+        "8oz bag of assorted gummy bears",
+        "Festive holiday flavors",
+        "Perfect for stocking stuffers",
+        "Great for candy dishes & parties"
+      ],
+      "images": [
+        "christmas_gummi_bears.jpg"
+      ],
+      "amazonUrl": "https://www.amazon.com/SwirleeTM-Christmas-Gummies-Assorted-Stocking/dp/B0G15QXQCX/",
+      "tag": "Popular"
+    }
+  ]
+}

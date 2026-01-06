@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwirleePop™ | Sweet Treats & Holiday Candy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="content/swirleepoplogo_1.png" alt="SwirleePop Logo" class="sidebar-logo">
+            <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="pages/easter.html" class="nav-link holiday-link">Easter Collection</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="pages/lollilookout.html" class="nav-link">Lolli Lookout Elves</a></li>
+            <li><a href="pages/singles.html" class="nav-link">Candy Single Packs</a></li>
+            <li><a href="pages/lollipops.html" class="nav-link">Lollipops</a></li>
+            <li><a href="pages/bundles.html" class="nav-link">Bundles</a></li>
+            <li><a href="pages/wuzzlers.html" class="nav-link">Wuzzlers</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <a href="https://www.amazon.com/s?k=Swirlee+Pop" target="_blank" rel="noopener" class="sidebar-amazon">
+                Shop on Amazon
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="content/swirleepoplogo_1.png" alt="SwirleePop Logo">
+                </a>
+            </div>
+            <a href="https://www.amazon.com/s?k=Swirlee+Pop" target="_blank" rel="noopener" class="header-cta">
+                Shop Now
+            </a>
+        </header>
+
+        <!-- Hero Banner - Easter Themed -->
+        <section class="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <span class="hero-eyebrow">Spring Collection 2025</span>
+                <h1>Make Every Moment <em>Sweeter</em></h1>
+                <p>Discover our curated selection of premium candies and gift sets, perfect for Easter celebrations and beyond.</p>
+                <a href="pages/easter.html" class="btn-primary">Explore Easter Collection</a>
+            </div>
+        </section>
+
+        <!-- Best Sellers Section -->
+        <section class="best-sellers" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Customer Favorites</span>
+                    <h2>Best Sellers</h2>
+                </div>
+                <div class="products-grid">
+                    <!-- Product 1: Lolli Lookout -->
+                    <article class="product-card">
+                        <a href="pages/product.html?id=lollilookout" class="product-image-link">
+                            <div class="product-image">
+                                <img src="content/lollilookout_1.jpg" alt="Lolli Lookout Elf & Jumbo Swirl Pop">
+                            </div>
+                            <span class="product-tag">Holiday Favorite</span>
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="pages/product.html?id=lollilookout">Lolli Lookout™ Elf Gift Set</a></h3>
+                            <p>Collectible elf with jumbo 4" swirl pop – perfect for shelf displays and stocking stuffers.</p>
+                            <a href="https://www.amazon.com/SwirleePopTM-Jumbo-Swirl-Pop-Christmas/dp/B0FX32B2PR/" class="btn-amazon" target="_blank" rel="noopener">
+                                Buy on Amazon
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 2: S'mores Bundle -->
+                    <article class="product-card">
+                        <a href="pages/product.html?id=smores-bundle" class="product-image-link">
+                            <div class="product-image">
+                                <img src="content/smores_bundle.jpg" alt="S'mores Holiday Mug Gift Bundle">
+                            </div>
+                            <span class="product-tag">Gift Ready</span>
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="pages/product.html?id=smores-bundle">S'mores Holiday Mug Bundle</a></h3>
+                            <p>Two festive mugs with graham crackers, marshmallows, and chocolate – the perfect cozy gift set.</p>
+                            <a href="https://www.amazon.com/2025-Smores-Holiday-Gift-Bundle/dp/B0G4HW16WB/" class="btn-amazon" target="_blank" rel="noopener">
+                                Buy on Amazon
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Product 3: Christmas Gummi Bears -->
+                    <article class="product-card">
+                        <a href="pages/product.html?id=holiday-gummies" class="product-image-link">
+                            <div class="product-image">
+                                <img src="content/christmas_gummi_bears.jpg" alt="Christmas Gummies">
+                            </div>
+                            <span class="product-tag">Top Rated</span>
+                        </a>
+                        <div class="product-info">
+                            <h3><a href="pages/product.html?id=holiday-gummies">Holiday Gummies Collection</a></h3>
+                            <p>8oz of festive gummy bears in assorted flavors – a delightful treat for any celebration.</p>
+                            <a href="https://www.amazon.com/SwirleeTM-Christmas-Gummies-Assorted-Stocking/dp/B0G15QXQCX/" class="btn-amazon" target="_blank" rel="noopener">
+                                Buy on Amazon
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-eyebrow">Our Story</span>
+                        <h2>Crafting Joy, <em>One Sweet at a Time</em></h2>
+                        <p>At SwirleePop, we believe every celebration deserves a touch of sweetness. From holiday traditions to everyday moments, we curate delightful candy experiences that bring joy to families everywhere.</p>
+                        <p>Our collection features everything from the beloved Lolli Lookout™ elves to festive candy bundles, artisan lollipops, and our signature Wuzzlers assorted packs. Each product is thoughtfully designed to make your moments more memorable.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20 12v10H4V12"></path>
+                                    <path d="M2 7h20v5H2z"></path>
+                                    <path d="M12 22V7"></path>
+                                    <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+                                    <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Gift-Ready Packaging</h4>
+                                <p>Beautifully presented and ready to give</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Quality Ingredients</h4>
+                                <p>Carefully selected for the best taste</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="1" y="3" width="15" height="13"></rect>
+                                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Fast Shipping</h4>
+                                <p>Quick delivery via Amazon Prime</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <span class="section-eyebrow">Get in Touch</span>
+                        <h2>We'd Love to Hear From You</h2>
+                        <p>Have questions about our products or interested in collaboration opportunities? Reach out to us.</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <h4>SwirleePop™</h4>
+                            <address>
+                                1563 Production Dr<br>
+                                Burlington, KY 41005
+                            </address>
+                        </div>
+                        <div class="contact-divider"></div>
+                        <div class="contact-item">
+                            <h4>Shop Our Products</h4>
+                            <p>All SwirleePop products are available exclusively on Amazon with fast Prime shipping.</p>
+                            <a href="https://www.amazon.com/s?k=Swirlee+Pop" target="_blank" rel="noopener" class="btn-secondary">
+                                Visit Amazon Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img src="content/swirleepoplogo_1.png" alt="SwirleePop Logo" class="footer-logo">
+                        <p>Making moments sweeter since 2024</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <div class="footer-nav-group">
+                            <h5>Shop</h5>
+                            <a href="pages/easter.html">Easter Collection</a>
+                            <a href="pages/lollilookout.html">Lolli Lookout</a>
+                            <a href="pages/bundles.html">Gift Bundles</a>
+                        </div>
+                        <div class="footer-nav-group">
+                            <h5>Company</h5>
+                            <a href="#about">About Us</a>
+                            <a href="#contact">Contact</a>
+                            <a href="https://www.amazon.com/s?k=Swirlee+Pop" target="_blank">Amazon Store</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 SwirleePop™. All rights reserved.</p>
+                    <p>Products sold exclusively on Amazon.com</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
