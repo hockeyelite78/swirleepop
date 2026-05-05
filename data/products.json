@@ -1,13 +1,79 @@
 {
   "products": [
     {
+      "id": "edible-grass",
+      "name": "Swirlee Pop™ Edible Easter Grass Assortment",
+      "subtitle": "3 Pack – Green Apple, Blue Raspberry, Strawberry",
+      "category": "Seasonal / Holiday",
+      "categoryPage": "easter.html",
+      "description": [
+        "Add a sweet, edible twist to your Easter baskets with Swirlee Pop™ Edible Easter Grass! This colorful 3-pack features delicious flavors that kids and adults will love.",
+        "Perfect as a basket stuffer or a fun treat on its own. Made with quality ingredients for a delightful candy experience."
+      ],
+      "features": [
+        "3 Pack assortment",
+        "Green Apple, Blue Raspberry, Strawberry flavors",
+        "Perfect for Easter baskets",
+        "Edible and delicious"
+      ],
+      "images": [
+        "edible-grass.png"
+      ],
+      "amazonUrl": "https://www.amazon.com/Swirlee-Pop-Assortment-Raspberry-Strawberry/dp/B0GHP8NZ7Y/",
+      "tag": "Easter"
+    },
+    {
+      "id": "mike-ike-cotton-candy",
+      "name": "Swirlee Pop™ Mike and Ike Cotton Candy",
+      "subtitle": "Cherry Lime & Strawberry Lemon – 2 Pack",
+      "category": "Candy Bundles",
+      "categoryPage": "bundles.html",
+      "description": [
+        "Experience the perfect combination of Mike and Ike flavors in soft, fluffy cotton candy form! This 2-pack features Cherry Lime and Strawberry Lemon flavors.",
+        "A unique candy experience that combines nostalgic cotton candy with beloved Mike and Ike fruit flavors. Perfect for parties, gifts, or everyday treats."
+      ],
+      "features": [
+        "2 Pack cotton candy",
+        "Cherry Lime and Strawberry Lemon flavors",
+        "Soft and fluffy texture",
+        "Mike and Ike branded collaboration"
+      ],
+      "images": [
+        "mike-ike-cotton-candy.png"
+      ],
+      "amazonUrl": "https://www.amazon.com/Cotton-Cherry-Strawberry-Flavors-Fluffy/dp/B0GWJZDX78/",
+      "tag": "New"
+    },
+    {
+      "id": "froot-loops-straws",
+      "name": "Swirlee Pop™ Froot Loops Cereal Straws",
+      "subtitle": "Bulk Pack (60 Count) – Individually Wrapped",
+      "category": "Candy Bundles",
+      "categoryPage": "bundles.html",
+      "description": [
+        "Bring back the nostalgia with Swirlee Pop™ Froot Loops Cereal Straws! This bulk pack features 60 individually wrapped fruity edible straws.",
+        "Perfect for parties, lunch boxes, or snacking. Each straw delivers the classic Froot Loops fruity flavor in a fun, crunchy format."
+      ],
+      "features": [
+        "60 Count bulk pack",
+        "Individually wrapped for freshness",
+        "Fruity Froot Loops flavor",
+        "Great for parties and sharing"
+      ],
+      "images": [
+        "froot-loops-straws.png"
+      ],
+      "amazonUrl": "https://www.amazon.com/Swirlee-Pop-Froot-Cereal-Straws/dp/B0GVTGT326/",
+      "tag": "Bulk"
+    },
+    {
       "id": "lollilookout",
       "name": "Lolli Lookout™ Elf & Jumbo Swirl Pop Christmas Gift Set",
       "subtitle": "Limited Holiday Edition",
-      "category": "Lolli Lookout Collection",
+      "category": "Lolli Lookout™",
       "categoryPage": "lollilookout.html",
       "description": [
-        "Bring home the magic of the holidays with our SwirleePop™ Elf & Jumbo Swirl Pop Christmas Gift Set! This limited holiday edition features a collectible Lolli Lookout Elf paired with a delicious 4\" candy swirl pop.",
+        "Bring home the magic of the holidays with our Swirlee Pop™ Elf & Jumbo Swirl Pop Christmas Gift Set! This limited holiday edition features a collectible Lolli Lookout Elf paired with a delicious 4\" candy swirl pop.",
         "Perfect for stockings, shelf displays, and kids' holiday fun. The Lolli Lookout Elf makes a wonderful alternative to traditional holiday elves, adding a sweet twist to your family traditions."
       ],
       "features": [
@@ -24,12 +90,12 @@
     },
     {
       "id": "smores-bundle",
-      "name": "2025 S'mores Holiday Mug Gift Bundle",
+      "name": "Swirlee Pop™ S'mores Holiday Mug Gift Bundle",
       "subtitle": "Festive Hot Cocoa Set",
-      "category": "Gift Bundles",
+      "category": "Candy Bundles",
       "categoryPage": "bundles.html",
       "description": [
-        "Bring home the holiday spirit with the Swirlee Pop Holiday S'mores Mug Gift Bundle, a festive all-in-one treat set made for cozy winter nights.",
+        "Bring home the holiday spirit with the Swirlee Pop™ Holiday S'mores Mug Gift Bundle, a festive all-in-one treat set made for cozy winter nights.",
         "This curated bundle includes two holiday mugs, graham crackers, marshmallows, and a chocolate bar, giving you everything you need to make warm, delicious s'mores or hot cocoa treats at home."
       ],
       "features": [
@@ -46,12 +112,12 @@
     },
     {
       "id": "holiday-gummies",
-      "name": "Swirlee™ Christmas Gummies",
+      "name": "Swirlee Pop™ Christmas Gummies",
       "subtitle": "8oz Holiday Chewy Candy Mix",
-      "category": "Candy Single Packs",
+      "category": "Gummies",
       "categoryPage": "singles.html",
       "description": [
-        "Bring holiday cheer to your celebrations with Swirlee Christmas Gummies! This festive half pound bag features delightful gummy bear candies that make perfect stocking stuffers.",
+        "Bring holiday cheer to your celebrations with Swirlee Pop™ Christmas Gummies! This festive half pound bag features delightful gummy bear candies that make perfect stocking stuffers.",
         "These chewy treats combine whimsical holiday shapes with delicious flavor that both kids and adults will love. Each piece is crafted to deliver the perfect gummy texture."
       ],
       "features": [
