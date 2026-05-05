@@ -206,3 +206,16 @@ address { font-style: normal; }
     .feature-icon { width: 40px; height: 40px; }
     .footer-nav { flex-direction: column; gap: var(--space-8); }
 }
+
+/* Brand Banner */
+.brand-banner {
+    padding: var(--space-8) 0;
+    background: var(--white);
+}
+.brand-banner img {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    border-radius: var(--radius-lg);
+}
